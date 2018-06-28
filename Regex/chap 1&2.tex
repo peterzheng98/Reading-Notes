@@ -1,0 +1,53 @@
+% Homework template for Inference and Information
+% UPDATE: September 26, 2017 by Xiangxiang
+\documentclass[a4paper]{article}
+\usepackage{ctex}
+\ctexset{
+proofname = \heiti{证明}
+}
+\usepackage{amsmath, amssymb, amsthm}
+% amsmath: equation*, amssymb: mathbb, amsthm: proof
+\usepackage{moreenum}
+\usepackage{mathtools}
+\usepackage{url}
+\usepackage{bm}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{booktabs} % toprule
+\usepackage[mathcal]{eucal}
+\usepackage[thehwcnt = 1]{iidef}
+\usepackage[left = 2cm, right = 2cm, top = 3.5cm, bottom = 1.5cm]{geometry}
+\newCJKfontfamily\BoldFont{STHeiti}
+\thecourseinstitute{正则表达式入门经典}
+\thecoursename{读书笔记}
+\theterm{}
+\hwname{第一章\ \ 正则表达式概述\ \ ；第二章\ \ 正则表达式工具和使用方法}
+\slname{\heiti{解}}
+\begin{document}
+\courseheader
+\name{\text{Peter Zheng}}
+
+\begin{enumerate}
+\setlength{\itemsep}{3\parskip}
+\item 正则表达式：用于匹配文本中的字符序列的字符模式。（像编程语言但不全是，需要一个环境） \\
+用途：匹配特定字符串是否包含允许的的字符模式（类似于Qt中的Mask）以及查找对应的字符序列。\\
+举例：查找重复的单词，检查表单输入是否合法，转换日期格式，检查错误拼写等等\\
+\BoldFont 作用：判断一个字符串是否与模式串匹配。\\
+
+\item 使用正则表达式的分析方法：\\
+1. 用自然语言表达说明意图。\\
+2. 考察数据源以及其可能的内容。\\
+3. 考察可以使用的正则表达式的选项。\\
+4. 考虑灵敏度和特殊性。\\
+5. 
+\end{enumerate}
+
+\end{document}
+\begin{equation}
+\end{equation}
+
+%%% Local Variables:
+%%% mode: late\rvx
+%%% TeX-master: t
+%%% End:
